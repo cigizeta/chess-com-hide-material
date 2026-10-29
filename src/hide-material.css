@@ -1,0 +1,16 @@
+/*
+ * Every Chess.com selector this extension depends on lives in this file.
+ *
+ * Chess.com's markup is not a public API: if a selector stops matching, the rule simply
+ * does nothing and the page keeps working. visibility (not display) is used so the player
+ * box keeps its layout and nothing shifts.
+ */
+
+/*
+ * Game pages (seen on daily games): the captured pieces and the "+N" material advantage
+ * score next to each player's name. Both live inside this custom element, whose tag name
+ * is a more stable hook than the sprite class names inside it.
+ */
+wc-captured-pieces {
+  visibility: hidden !important;
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Hide Material",
+  "version": "0.1.0",
+  "description": "Hides captured pieces and the material advantage score on Chess.com.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "css": ["src/hide-material.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

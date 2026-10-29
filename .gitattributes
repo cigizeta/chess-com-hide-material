@@ -1,0 +1,7 @@
+# Store text as LF, check out with the OS's native line endings (CRLF on Windows).
+* text=auto
+
+# Shell scripts are always LF.
+*.sh text eol=lf
+
+*.png binary
