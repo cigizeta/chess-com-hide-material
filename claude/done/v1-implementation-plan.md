@@ -54,3 +54,6 @@ Any page where `<wc-captured-pieces>` is absent or different gets inspected, and
 added to `src/hide-material.css` with a comment.
 
 Finally, disable the extension and confirm the material display comes back after a reload.
+
+**Result:** daily and analysis pages pass. Live and bot games were not tested, since the
+developer does not play them.
